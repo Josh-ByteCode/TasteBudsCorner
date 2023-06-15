@@ -1,0 +1,66 @@
+body {
+  padding-top: 70px;
+}
+
+.navbar-nav .nav-link {
+  transition: outline 0.3s ease-in-out, padding 0.3s ease-in-out; /* Add transition properties */
+}
+
+.navbar-nav .nav-link:not(.exclude-focus):focus {
+  padding: 6px; /* Padding around the focused link */
+  border-radius: 4px; /* Add border-radius */
+  background-color: #e7eb25; /* Add background color */
+  color: #000000; /* Set text color */
+}
+
+.navbar-nav li,
+.navbar-nav li a,
+.btn-success {
+  font-size: 14px; /* Default font size */
+}
+
+/* Media queries for different screen sizes */
+@media (min-width: 576px) {
+  .navbar-nav li,
+  .navbar-nav li a,
+  .btn-success {
+      font-size: 18px; /* Font size for small screens and above */
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-nav li,
+  .navbar-nav li a,
+  .btn-success {
+      font-size: 20px; /* Font size for medium screens and above */
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav li,
+  .navbar-nav li a,
+  .btn-success {
+      font-size: 22px; /* Font size for large screens and above */
+  }
+}
+
+.brand-with-margin {
+  margin-left: 40px;
+}
+
+.btn-with-margin {
+  margin-right: 40px;
+}
+
+.custom-input-width {
+  width: 350px; /* Adjust the width as needed */
+  border-radius: 15px !important;
+}
+
+.custom-icon-size {
+  font-size: 1.2rem;
+}
+
+.btn-outline-light:hover{
+  background-color: #e7eb25 !important;
+} 
